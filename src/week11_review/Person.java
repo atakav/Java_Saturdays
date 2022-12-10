@@ -61,4 +61,20 @@ public class Person {
                         ", age=" + age +
                         ", gender=" + gender;
     }
+
+
+    public void eat(String food) {
+        System.out.println(name + " is eating " + food);
+    }
+
+    public void drink(String drink) {
+        System.out.println(name + " is drinking " + drink);
+    }
+
+    public void sleep() {
+        System.out.println(name + " is sleeping");
+    }
+
+
+
 }
